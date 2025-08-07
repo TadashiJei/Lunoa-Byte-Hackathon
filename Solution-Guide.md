@@ -295,7 +295,7 @@ Types: feat, fix, docs, style, refactor, test, chore
 ```
 MIT License
 
-Copyright (c) 2024 Lunoa
+Copyright (c) 2025 Lunoa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

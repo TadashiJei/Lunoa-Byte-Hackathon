@@ -51,7 +51,7 @@ MSMEs (Micro, Small, and Medium Enterprises) face significant challenges in the 
 
 ### Market Research Insights
 
-**Survey Data** (500 MSMEs in Metro Manila, 2024):
+**Survey Data** (500 MSMEs in Metro Manila, 2025):
 - **78%** want a single platform for finding trusted B2B partners
 - **85%** prioritize security features in business platforms
 - **92%** would pay premium for verified, high-quality service providers
@@ -891,9 +891,9 @@ const contract = await api.post('/contracts/create', {
     title: 'E-commerce Website Development',
     description: 'Full-featured e-commerce platform',
     deliverables: [
-      { name: 'UI/UX Design', dueDate: '2024-09-15', payment: 40000 },
-      { name: 'Frontend Development', dueDate: '2024-10-15', payment: 60000 },
-      { name: 'Backend & Database', dueDate: '2024-11-01', payment: 50000 }
+      { name: 'UI/UX Design', dueDate: '2025-09-15', payment: 40000 },
+      { name: 'Frontend Development', dueDate: '2025-10-15', payment: 60000 },
+      { name: 'Backend & Database', dueDate: '2025-11-01', payment: 50000 }
     ],
     totalAmount: 150000,
     currency: 'PHP'
@@ -1885,7 +1885,7 @@ We welcome contributions to the Lunoa B2B Trust & Marketplace Platform!
 
 ### **Architects of the Future (Tomeku)**
 
-**Founded**: 2024  
+**Founded**: 2025  
 **Location**: Quezon City, Metro Manila, Philippines  
 **Mission**: Transform complex technological challenges into powerful, innovative solutions
 
@@ -1917,12 +1917,7 @@ We welcome contributions to the Lunoa B2B Trust & Marketplace Platform!
 
 #### **Technical Advisors**
 
-**Dr. Maria Santos** - *AI/ML Research Advisor*
-- PhD in Machine Learning, University of the Philippines
-- Published researcher in trust systems and security
-- Former Google AI researcher
-
-**Engr. Robert Tan** - *Cybersecurity Advisor*
+** Rommel Jay Gadil - CTVI ** - *Cybersecurity Advisor*
 - 15+ years in enterprise security
 - CISSP, CISM certified
 - Former security consultant for major banks
@@ -1941,7 +1936,7 @@ We welcome contributions to the Lunoa B2B Trust & Marketplace Platform!
 ```
 MIT License
 
-Copyright (c) 2024 Tomeku (Architects of the Future)
+Copyright (c) 2025 Tomeku (Architects of the Future)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1991,18 +1986,18 @@ Contact: enterprise@lunoa.io
 
 **Current Version**: v1.0.0-beta  
 **Development Status**: MVP Complete  
-**Next Release**: v1.1.0 (Q4 2024)  
+**Next Release**: v1.1.0 (Q4 2025)  
 **Long-term Vision**: Market leader in B2B trust platforms
 
 ### **Roadmap**
 
-#### **Phase 1: MVP (Q3 2024)** ✅
+#### **Phase 1: MVP (Q3 2025)** ✅
 - [x] Core marketplace functionality
 - [x] Basic trust scoring system
 - [x] Security model integration
 - [x] User authentication and verification
 
-#### **Phase 2: Enhancement (Q4 2024)** 🔄
+#### **Phase 2: Enhancement (Q4 2025)** 🔄
 - [ ] Advanced AI matching algorithms
 - [ ] Mobile application
 - [ ] Payment gateway integration

@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lunoa.io/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /features
+Allow: /pricing
+Allow: /about-us
+Allow: /contact
+Allow: /documentation
+Allow: /api-reference
+Allow: /community
+Allow: /support
+
+# Crawl delay
+Crawl-delay: 1
