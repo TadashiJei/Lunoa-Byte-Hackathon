@@ -1,0 +1,57 @@
+{
+  "typescript": false,
+  "modules": [
+    {
+      "name": "users",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "auth",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "trust",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "marketplace",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "security",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "ai",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "communications",
+      "module": true,
+      "controller": false,
+      "service": false
+    },
+    {
+      "name": "payments",
+      "module": true,
+      "controller": false,
+      "service": false
+    }
+  ],
+  "totalFiles": 44,
+  "totalLines": 1974,
+  "status": "INCOMPLETE",
+  "timestamp": "2025-08-07T08:25:55.566Z"
+}

@@ -1,0 +1,13 @@
+{
+  "typescript": false,
+  "modules": 8,
+  "status": "INCOMPLETE",
+  "readyForProduction": false,
+  "timestamp": "2025-08-07T08:24:33.868Z",
+  "details": {
+    "typescript": false,
+    "modulesComplete": false,
+    "filesExist": false,
+    "totalLines": 1974
+  }
+}
