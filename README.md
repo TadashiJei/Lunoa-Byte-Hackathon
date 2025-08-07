@@ -60,7 +60,6 @@ MSMEs (Micro, Small, and Medium Enterprises) face significant challenges in the 
 **Market Size**:
 - 1.2M MSMEs in the Philippines
 - $52B annual B2B transactions
-- Only 23% use digital B2B platforms
 
 ---
 
@@ -68,12 +67,11 @@ MSMEs (Micro, Small, and Medium Enterprises) face significant challenges in the 
 
 ### Lunoa: AI-Powered B2B Trust & Marketplace Platform
 
-Lunoa revolutionizes B2B commerce by creating the first marketplace platform that integrates **AI-powered trust verification** with **real-time cybersecurity protection**. Our solution addresses the core challenges through three innovative pillars:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Platform: React](https://img.shields.io/badge/Platform-React-blue.svg)](https://reactjs.org/)
+[![Backend: Node.js](https://img.shields.io/badge/Backend-Node.js-green.svg)](https://nodejs.org/)
 
-#### 1. **Trust Engine** 🛡️
-- **AI Verification**: Automated identity and credential verification
-- **Dynamic Trust Scores**: Real-time reputation system based on performance
-- **Behavioral Analytics**: Pattern recognition for suspicious activities
+## Problem Statement
 - **Multi-Layer Validation**: Documents, references, and performance history
 
 #### 2. **Security Shield** 🔐
