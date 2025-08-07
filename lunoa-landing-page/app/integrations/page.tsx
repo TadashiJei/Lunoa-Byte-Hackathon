@@ -1,51 +1,58 @@
-import { Header } from "@/components/header"
-import { FooterSection } from "@/components/footer-section"
-import { AnimatedSection } from "@/components/animated-section"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import Image from "next/image"
+import { Header } from "@/components/header";
+import { FooterSection } from "@/components/footer-section";
+import { AnimatedSection } from "@/components/animated-section";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function IntegrationsPage() {
   const integrations = [
     {
       name: "Slack",
-      description: "Get notifications and updates directly in your Slack workspace.",
-      logo: "/images/mcp-integrations/react.svg",
+      description:
+        "Get notifications and updates directly in your Slack workspace.",
+      logo: "/logos/logo03.svg",
       category: "Communication",
     },
     {
       name: "Microsoft Teams",
       description: "Seamlessly integrate with your existing Teams workflow.",
-      logo: "/images/mcp-integrations/nextjs.svg",
+      logo: "/logos/logo04.svg",
       category: "Communication",
     },
     {
       name: "QuickBooks",
       description: "Sync financial data and automate invoice processing.",
-      logo: "/images/mcp-integrations/figma.svg",
+      logo: "/logos/logo05.svg",
       category: "Accounting",
     },
     {
       name: "Salesforce",
       description: "Connect your CRM data with Lunoa's partner management.",
-      logo: "/images/mcp-integrations/tailwind-css.svg",
+      logo: "/logos/logo06.svg",
       category: "CRM",
     },
     {
       name: "Trello",
       description: "Manage projects and collaborate with verified partners.",
-      logo: "/images/mcp-integrations/shadcn.svg",
+      logo: "/logos/logo07.svg",
       category: "Project Management",
     },
     {
       name: "Zoom",
       description: "Schedule secure video meetings with potential partners.",
-      logo: "/images/mcp-integrations/resend.svg",
+      logo: "/logos/logo08.svg",
       category: "Communication",
     },
-  ]
+  ];
 
-  const categories = ["All", "Communication", "Accounting", "CRM", "Project Management"]
+  const categories = [
+    "All",
+    "Communication",
+    "Accounting",
+    "CRM",
+    "Project Management",
+  ];
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
@@ -57,7 +64,9 @@ export default function IntegrationsPage() {
               Seamless Business Integrations
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl font-medium leading-relaxed max-w-3xl mx-auto">
-              Connect Lunoa with your favorite business tools and streamline your workflow. Our integrations make it easy to manage partnerships without switching between platforms.
+              Connect Lunoa with your favorite business tools and streamline
+              your workflow. Our integrations make it easy to manage
+              partnerships without switching between platforms.
             </p>
           </section>
         </AnimatedSection>
@@ -78,21 +87,30 @@ export default function IntegrationsPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {integrations.map((integration, index) => (
-                <div key={index} className="bg-card p-6 rounded-xl shadow-lg border border-border hover:shadow-xl transition-shadow">
+                <div
+                  key={index}
+                  className="bg-card p-6 rounded-xl shadow-lg border border-border hover:shadow-xl transition-shadow"
+                >
                   <div className="flex items-center mb-4">
                     <Image
                       src={integration.logo || "/placeholder.svg"}
                       alt={integration.name}
-                      width={40}
-                      height={40}
-                      className="mr-4 opacity-70 grayscale"
+                      width={120}
+                      height={120}
+                      className="opacity-70 grayscale"
                     />
                     <div>
-                      <h3 className="text-foreground text-lg font-semibold">{integration.name}</h3>
-                      <span className="text-primary text-sm font-medium">{integration.category}</span>
+                      <h3 className="text-foreground text-lg font-semibold">
+                        {integration.name}
+                      </h3>
+                      <span className="text-primary text-sm font-medium">
+                        {integration.category}
+                      </span>
                     </div>
                   </div>
-                  <p className="text-muted-foreground text-base leading-relaxed mb-4">{integration.description}</p>
+                  <p className="text-muted-foreground text-base leading-relaxed mb-4">
+                    {integration.description}
+                  </p>
                   <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
                     Connect
                   </Button>
@@ -108,7 +126,8 @@ export default function IntegrationsPage() {
               Don't See Your Tool?
             </h2>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-8">
-              We're constantly adding new integrations. Let us know what tools you'd like to see connected to Lunoa.
+              We're constantly adding new integrations. Let us know what tools
+              you'd like to see connected to Lunoa.
             </p>
             <Link href="/contact">
               <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-full font-medium text-base">
@@ -120,5 +139,5 @@ export default function IntegrationsPage() {
       </main>
       <FooterSection />
     </div>
-  )
+  );
 }
