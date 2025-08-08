@@ -1917,10 +1917,32 @@ We welcome contributions to the Lunoa B2B Trust & Marketplace Platform!
 
 #### **Technical Advisors**
 
+**Rannie Ollit - CIBI Technology Venture Inc** - *Cybersecurity Advisor*
+- 8+ years in Software Engineering  
+- EF SET English Certificate 54/100 (B2 Proficient)  
+- Blockchain: Learning Solidity  
+- Certified Blockchain Developer  
+- Node.js Essential Training  
+- Software Architecture: Patterns for Developers  
+- Designing RESTful APIs  
+- Career Service Examination - Professional  
+
 **Rommel Jay Gadil - CyberPH** - *Cybersecurity Advisor*
-- 15+ years in enterprise security
-- CISSP, CISM certified
-- Former security consultant for major banks
+- Automation Anywhere Certified Advanced RPA Professional (V11.0) 
+- Certified Scrum Professional (CSP)
+- Lean Six Sigma White Belt Certification
+- Microsoft Certified Innovative Educator
+- Fortinet Network Security Expert Level 1: Certified Associate
+- Fortinet Network Security Expert Level 2: Certified Associate
+- Cyber Security Foundation Professional Certificate - CSFPC™
+- EF SET English Certificate 54/100 (B2 Proficient)**  
+- Blockchain: Learning Solidity
+- Certified Blockchain Developer
+- Node.js Essential Training
+- Software Architecture: Patterns for Developers
+- Designing RESTful APIs
+- Career Service Examination - Professional
+
 
 #### **Contact Information**
 
