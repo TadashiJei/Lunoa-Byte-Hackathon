@@ -1917,7 +1917,7 @@ We welcome contributions to the Lunoa B2B Trust & Marketplace Platform!
 
 #### **Technical Advisors**
 
-** Rommel Jay Gadil - CTVI ** - *Cybersecurity Advisor*
+**Rommel Jay Gadil - CyberPH** - *Cybersecurity Advisor*
 - 15+ years in enterprise security
 - CISSP, CISM certified
 - Former security consultant for major banks
