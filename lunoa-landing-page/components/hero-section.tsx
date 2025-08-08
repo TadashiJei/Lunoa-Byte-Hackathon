@@ -586,7 +586,7 @@ export function HeroSection() {
         rel="noopener noreferrer"
       >
         <Button className="relative z-10 bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-white/10">
-          View our Demo
+          View Demo
         </Button>
       </Link>
     </section>
